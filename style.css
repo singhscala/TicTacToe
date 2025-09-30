@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #191913;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #93A8AC;
+}
+.section{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    color: indianred;
+    background-color: aliceblue;
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: antiquewhite;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
+.new-btn{
+    padding: 1rem;
+    font-size: 0.9rem;
+    background-color: #191913;
+    color: antiquewhite;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
+
+.hide{
+    display: none;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.popup-box {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  text-align: center;
+  animation: popupFade 0.4s ease;
+}
+
+.popup-box h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+#playAgainBtn {
+  padding: 10px 20px;
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#playAgainBtn:hover {
+  background-color: #004d40;
+}
+
+.hide {
+  display: none;
+}
+
+@keyframes popupFade {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
