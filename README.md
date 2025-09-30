@@ -24,4 +24,4 @@ A simple **Tic Tac Toe game** built using **HTML, CSS, and JavaScript**. Play wi
 ✔ Lightweight and beginner-friendly code  
 
 ## Screenshots
-![Tic Tac Toe](https://raw.githubusercontent.com/singhscaia/TicTacToe/main/Screenshot%202025-10-01%20000441.png)
+![Tic Tac Toe Screenshot](Screenshot%202025-10-01%20000441.png)
