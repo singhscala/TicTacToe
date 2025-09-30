@@ -24,5 +24,4 @@ A simple **Tic Tac Toe game** built using **HTML, CSS, and JavaScript**. Play wi
 ✔ Lightweight and beginner-friendly code  
 
 ## Screenshots
-"C:\Users\singh\Downloads\Screenshot 2025-10-01 000441.png"
-
+Screenshot 2025-10-01 000441.png
